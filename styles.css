@@ -171,7 +171,6 @@ body{
 
 #product1{
     text-align: center;
-    color: #fff;
 }
 
 #product1 .pro{
@@ -192,5 +191,15 @@ body{
 #product1 .pro img{
     width: 100%;
     border-radius: 20px;
+}
 
+#product .pro .des{
+    text-align: start;
+    padding: 10px 0;
+
+}
+
+#product .pro .des span{
+    color: #fff;
+    font-size: 12px;
 }
