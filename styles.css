@@ -24,9 +24,6 @@ h4{
     color: #9416e9;
 }
 
-h5{
-    font-size: 15px;
-}
 
 h6{
     font-weight: 700;
@@ -37,7 +34,7 @@ h6{
 
 p{
     font-size: 16px;
-    color: #465b52;
+    color: #ffffffc0;
     margin: 15px 0 20px 0;
 }
 
@@ -173,6 +170,13 @@ body{
     text-align: center;
 }
 
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    position: relative;
+}
+
 #product1 .pro{
     width: 23%;
     min-width: 250px;
@@ -182,6 +186,8 @@ body{
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(21, 1, 32, 0.596);
     margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
 }
 
 #product1 .pro:hover{
@@ -193,13 +199,40 @@ body{
     border-radius: 20px;
 }
 
-#product .pro .des{
+#product1 .pro .des{
     text-align: start;
     padding: 10px 0;
-
 }
 
-#product .pro .des span{
+#product1 .pro .des span{
     color: #fff;
     font-size: 12px;
+}
+
+#product1 .pro .des h5{
+    padding-top: 3px;
+    font-size: 16px;
+    color: #fff;
+}
+
+#product1 .pro .des h4{
+    padding-top: 3px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #9416e9;
+}
+
+#product1 .pro .bag{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #474545;
+    font-weight: 500;
+    color: #9416e9;
+    border: 1px solid #3b3a3a;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+
 }
